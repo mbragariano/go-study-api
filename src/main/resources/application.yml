@@ -1,0 +1,20 @@
+server:
+  port: 4000
+  servlet:
+    context-path: /go_study
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+    driver-class-name: org.postgresql.Driver
+    username: ${GO_STUDY_API_DB_USER:postgres}
+    password: ${GO_STUDY_API_DB_PASS:postgres}
+    url: ${GO_STUDY_API_DB_URL:jdbc:postgresql://localhost:5432/go_study_api}
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    generate-ddl: true
