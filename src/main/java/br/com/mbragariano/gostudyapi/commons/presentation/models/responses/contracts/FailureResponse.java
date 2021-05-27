@@ -1,4 +1,4 @@
-package br.com.mbragariano.gostudyapi.commons.presentation.models.responses;
+package br.com.mbragariano.gostudyapi.commons.presentation.models.responses.contracts;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import lombok.AllArgsConstructor;

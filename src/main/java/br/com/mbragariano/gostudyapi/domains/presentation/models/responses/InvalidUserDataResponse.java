@@ -1,6 +1,6 @@
 package br.com.mbragariano.gostudyapi.domains.presentation.models.responses;
 
-import br.com.mbragariano.gostudyapi.commons.presentation.models.responses.FailureResponse;
+import br.com.mbragariano.gostudyapi.commons.presentation.models.responses.contracts.FailureResponse;
 import lombok.Builder;
 
 import java.util.List;
